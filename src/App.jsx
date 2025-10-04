@@ -6,7 +6,7 @@ import About from './components/About'
 import Eyes from './components/Eyes'
 import Featured from './components/Featured'
 import Cards from './components/Cards'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import LocomotiveScroll from 'locomotive-scroll';
 
 
