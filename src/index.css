@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url('/FoundersGrotesk-Semibold.ttf') format('truetype');
+  font-weight: 100; /* ya font weight ke hisab se */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('/NeueMontreal-Regular.ttf') format('truetype');
+  font-weight: 100; /* ya font weight ke hisab se */
+  font-style: normal;
+}
+
+[data-scroll-container] {
+  position: relative;
+  overflow: hidden;
+}

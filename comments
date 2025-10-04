@@ -1,0 +1,24 @@
+// Feature card comments
+
+ <div key={index} className=' flex flex-col gap-5 '>
+                <h1 className='text-[1.3rem]'>● {items.name}</h1>
+                <motion.div className=' overflow-hidden rounded-3xl'
+                    whileHover={{ scale: 0.97 }}
+                    transition={{ duration: 0.4, ease: "easeInOut" }}>
+                    <motion.img whileHover={{ scale: 1.10 }} // hover par scale 95%
+                        transition={{ duration: 0.4, ease: "easeInOut" }}
+                        className='w-full text-center  hover:scale-90' src={items.img} alt="img" />
+                </motion.div>
+                if (index %2 ===0){ 
+                    <motion.h1 className=' absolute top-[50%] left-1/2 bg-red-500 '>Hyyyy</motion.h1>
+                } else{
+                 <motion.h1>Hiiiii</motion.h1>
+                }
+                <button className='border-white border-2 py-3 rounded-3xl text-[1.1rem] font-semibold'>{items.btn}</button>
+            </div>
+
+
+
+// <div className='cards relative grid grid-cols-1 sm:grid-cols-2 sm:gap-10 lg:gap-10 mt-10 pt-14 px-10 '>
+                
+//             </div>
